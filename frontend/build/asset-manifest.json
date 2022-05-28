@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sharkrepellent/static/css/main.2f771376.css",
+    "main.js": "/sharkrepellent/static/js/main.0bdbf969.js",
+    "static/js/787.cda612ba.chunk.js": "/sharkrepellent/static/js/787.cda612ba.chunk.js",
+    "index.html": "/sharkrepellent/index.html",
+    "main.2f771376.css.map": "/sharkrepellent/static/css/main.2f771376.css.map",
+    "main.0bdbf969.js.map": "/sharkrepellent/static/js/main.0bdbf969.js.map",
+    "787.cda612ba.chunk.js.map": "/sharkrepellent/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f771376.css",
+    "static/js/main.0bdbf969.js"
+  ]
+}

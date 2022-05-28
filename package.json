@@ -1,0 +1,22 @@
+{
+  "name": "shark-repellent-freight",
+  "version": "1.0.0",
+  "description": "Shark Repellent Freight App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/{brennanburch}/{sharkrepellent}.git"
+  },
+  "author": "Brennan Burch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/{brennanburch}/{sharkrepellent}/issues"
+  },
+  "homepage": "https://github.com/{brennanburch}/{sharkrepellent}#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
