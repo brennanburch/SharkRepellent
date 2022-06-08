@@ -1,21 +1,29 @@
 const express = require('express')
 const carriers = require('./data/carriers')
+const shipments = require('./data/shipments')
 
 
-const app = express()
+const server = express()
+const server2 = express()
 
-app.get('/', (req, res) => {
-    res.send('API is running...')
+server.get('/', (req, res) => {
+    res.send('Carriers API is running...')
+})
+server2.get('/', (req, res) => {
+    res.send('Shipments API is running...')
 })
 
 
 
 
-
-app.get('/api/carriers', (req, res) => {
+server.get('/api/carriers', (req, res) => {
+    res.json(carriers)
+})
+server2.get('/api/shipments', (req, res) => {
     res.json(carriers)
 })
 
 
 
-app.listen(5000, console.log('server running on port 5000'))
+server.listen(5000, console.log('Carriers server running on port 5000'))
+server2.listen(5001, console.log('Shipments server running on port 5001'))
