@@ -1,6 +1,6 @@
 const express = require('express')
 const carriers = require('./data/carriers')
-const shipments = require('./data/shipments')
+const orders = require('./data/orders')
 
 
 const server = express()
@@ -19,8 +19,8 @@ server2.get('/', (req, res) => {
 server.get('/api/carriers', (req, res) => {
     res.json(carriers)
 })
-server2.get('/api/shipments', (req, res) => {
-    res.json(carriers)
+server2.get('/api/orders', (req, res) => {
+    res.json(orders)
 })
 
 
