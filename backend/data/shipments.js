@@ -5,7 +5,8 @@ const shipments = [
         destination: 'Excargo Services Inc',
         product: '0302.91.20',      
         shipDate: '03/11/2022',
-        
+        specialInstructions: 'Sally does not wash her hands. Ever.',
+
     },
     {
         orderNumber:'2',
