@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Navbar, Nav, Row, Form, FormControl, Col } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 
 const HomeScreen = () => {
