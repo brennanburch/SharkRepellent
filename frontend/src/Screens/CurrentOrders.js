@@ -1,9 +1,22 @@
-import React from 'react'
-import orders from '../orders'
+import React, { useState, useEffect } from 'react'
+
 import { Container,Row, Col, Table, Button, Navbar, Form, FormControl } from 'react-bootstrap'
+import { LineAxisOutlined } from '@mui/icons-material'
+import axios from 'axios'
+
 
 
 const CurrentOrders = () => {
+  const [orders, setOrders] = useState([])
+
+    useEffect(() => {
+      const fetchOrders = async() =>{
+      const {data} = await axios.get('/api/orders')
+
+      setOrders(data)
+    }
+    fetchOrders()
+    }, [])
   return (
     <>
      <Navbar bg="dark" variant='dark' expand="lg"  collapseOnSelect>
