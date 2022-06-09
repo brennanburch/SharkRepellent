@@ -23,6 +23,18 @@ server2.get('/api/orders', (req, res) => {
     res.json(orders)
 })
 
+server.get('/api/carriers/:name', (req, res) => {
+    const carrier = carriers.find(p => p.name === req.params.name)
+    res.json(carrier)
+})
+
+server2.get('/api/orders/:orderNumber', (req, res) => {
+    const order = orders.find(p => p.orderNumber === req.params.orderNumber)
+    res.json(order)
+})
+
+
+
 
 
 server.listen(5000, console.log('Carriers server running on port 5000'))

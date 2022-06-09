@@ -1,5 +1,6 @@
 const carriers = [
     {
+        id:'1',
         name:'Excargo Services Inc',
         location: '1234 House Street, Houston, TX 77029',
         rate: '$3-$12/mile',     
