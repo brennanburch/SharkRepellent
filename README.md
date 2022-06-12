@@ -1,4 +1,6 @@
 # sharkrepellentfreight
+How to install NodeJS on your local machine: https://nodesource.com/blog/installing-nodejs-tutorial-mac-os-x/
+
 Before you attempt to run this locally, you will need to run "npm install" from your terminal in the main directory of the project to ensure all of the dependencies from the package.json file are installed on your local machine. If it doesn't run first try, you'll most likely need to do this in every folder where there is a package.json file.
 
 
