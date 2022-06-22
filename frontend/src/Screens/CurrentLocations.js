@@ -8,6 +8,7 @@ const CurrentLocations= () => {
     
     <Row className='justify-content-center py-3'>
       <Col lg={9} > 
+      <h3>Locations</h3>
       <Button size="sm">
      New Location
     </Button>

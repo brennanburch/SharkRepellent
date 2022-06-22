@@ -19,10 +19,13 @@ const CurrentOrders = () => {
     }, [])
   return (
     <>
-
+  
     <Row className='justify-content-center py-3'>
+    
       <Col lg={9} >
+      <h3>Orders</h3>
       <Table striped bordered hover variant="light">
+      
   <thead>
     <tr>
       

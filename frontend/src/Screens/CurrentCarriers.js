@@ -10,7 +10,9 @@ const CurrentCarriers= () => {
      
     
     <Row className='justify-content-center py-3'>
-      <Col lg={9} ><Button  size="sm">
+      <Col lg={9} >
+      <h3>Carriers</h3>
+        <Button  size="sm">
      New Carrier
     </Button>
       <Table striped bordered hover variant="light">
