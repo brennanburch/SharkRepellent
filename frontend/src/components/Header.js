@@ -19,9 +19,9 @@ const Header = () => {
     <Navbar.Brand href="/">Shark Repellent</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-    <Form className="d-xl-flex">
+    <Form className="d-lg-flex">
               <FormControl
-                type="search"
+                type="text"
                 placeholder="Search"
                 className="w-100"
                 aria-label="Search"

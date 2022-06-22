@@ -12,7 +12,7 @@ const locations = [
         city:  'Houston',
         state: 'Texas',    
         zip:'77029',
-        specialInstructions: 'All deliveries must be catapulted over the fence.',
+        specialInstructions: 'All deliveries must be catapulted over the fence. Trebuchet is also acceptable in some circumstances.',
         
         
     },
