@@ -19,28 +19,7 @@ const CurrentOrders = () => {
     }, [])
   return (
     <>
-     <Navbar bg="dark" variant='dark' expand="lg"  collapseOnSelect>
-  <Container>
-    
-    <Navbar.Toggle aria-controls="basic-navbar-nav " />
-    <Navbar.Collapse id="basic-navbar-nav">
-    
-        <Form className="d-xl-flex">
-              <FormControl
-                type="search"
-                placeholder="Search"
-                className="w-100"
-                aria-label="Search"
-              />
-              <Button variant="outline-success">Search</Button>
-            </Form>
-            <i className='fa-solid fa-filter fa-2xl justify-content-lg-around'></i>
-            
-        
-     
-    </Navbar.Collapse>
-  </Container>
-</Navbar>
+
     <Row className='justify-content-center py-3'>
       <Col lg={9} >
       <Table striped bordered hover variant="light">

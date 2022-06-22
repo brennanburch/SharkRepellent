@@ -1,0 +1,6 @@
+#sidebar-wrapper {
+    background: color rgb(123, 123, 123) important!;
+    padding-top: 0.5rem;
+    font-size:14px;
+    flex: 1 0 auto;
+}

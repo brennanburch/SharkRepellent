@@ -2,9 +2,13 @@
   "name": "shark-repellent-freight",
   "version": "1.0.0",
   "description": "Shark Repellent Freight App",
+  "homepage": "https://brennanburch.github.io",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server"
+    "start": "node backend/server",
+  
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -15,8 +19,11 @@
   "bugs": {
     "url": "https://github.com/{brennanburch}/{sharkrepellent}/issues"
   },
-  "homepage": "https://github.com/{brennanburch}/{sharkrepellent}#readme",
+
   "dependencies": {
-    "express": "^4.18.1"
+    "-": "^0.0.1",
+    "express": "^4.18.1",
+    "gh-pages": "^4.0.0",
+    "save-dev": "^0.0.1-security"
   }
 }
