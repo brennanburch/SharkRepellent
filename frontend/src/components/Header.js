@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container, Navbar, Nav, Form, FormControl, Button} from 'react-bootstrap'
 import OrderDetails from '../Screens/OrderDetails.js';
-import { BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
-import CurrentOrders from '../Screens/CurrentOrders.js';
+import { BrowserRouter as  Route, Switch} from 'react-router-dom'
+import CurrentOrders from '../Screens/CurrentOrders';
 import CurrentCarriers from '../Screens/CurrentCarriers.js';
 import CarrierDetails from '../Screens/CarrierDetails';
 import CurrentLocations from '../Screens/CurrentLocations';
@@ -26,9 +26,9 @@ const Header = () => {
                 className="w-100"
                 aria-label="Search"
               />
-              <Button variant="outline-success">Search</Button>
+              <Button variant="outline-success">Search<i className='fa-solid fa-filter fa-2xl justify-content-lg-around'></i></Button>
             </Form>
-            <i className='fa-solid fa-filter fa-2xl justify-content-lg-around'></i>
+            
  
         
       <Nav className='ms-auto'>

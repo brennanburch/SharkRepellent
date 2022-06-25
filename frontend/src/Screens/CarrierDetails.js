@@ -17,7 +17,7 @@ import { Row, Col, ListGroup, Button } from 'react-bootstrap'
   
     
         <Row className='py-3'>
-            <Col className='md-6'> Location: </Col>
+            <Col className='md-9'> Location: </Col>
             <Col className='md-6'>{carrier.location}</Col>
   </Row>
   <Row className='py-3'>
