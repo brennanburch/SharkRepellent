@@ -44,7 +44,7 @@ const CurrentCarriers= () => {
             
            
             <td>
-            <Button href={`/carrier/${carrier.name}`} variant="primary" size="sm" active>
+            <Button href={`/carriers/${carrier.name}`} variant="primary" size="sm" active>
      More
   </Button>{' '}</td>
             

@@ -1,4 +1,4 @@
-const shipments = [
+const Orders = [
     {
         orderNumber:'1',
         origin: 'Capital Freight',
@@ -26,4 +26,4 @@ const shipments = [
     },
 ]
 
-module.exports = shipments
+module.exports = Orders
